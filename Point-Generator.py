@@ -29,11 +29,3 @@ class LorenzGenerator:
 		self.y+=dy
 		self.z+=dz
 		return (self.x,self.y,self.z)
-
-		dx=(sigma*(y-x))*dt
-		dy=(x*(rho-z)-y)*dt
-		dz=(x*y-beta*z)*dt
-		x+=dx
-		y+=dy
-		z+=dz
-		return (x,y,z)
