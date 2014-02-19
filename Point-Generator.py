@@ -12,7 +12,7 @@ class LorenzGenerator:
 		self.rho=rho
 		self.beta=beta
 
-	def start(self,x0=0,y0=0,z0=0,timeStep):
+	def start(self,x0=0,y0=0,z0=0,timeStep=0.01):
 		self.x=x0
 		self.y=y0
 		self.z=z0
